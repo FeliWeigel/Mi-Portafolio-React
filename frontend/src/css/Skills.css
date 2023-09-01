@@ -1,0 +1,66 @@
+.skills-btn {
+    color: #fff;
+    background: transparent;
+    font-size: .85rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 10px 20px;
+    border: 1.5px solid rgba(255,255,255,0.5);
+    transition: .4s;
+}
+
+.skills-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.skills-selected-btn {
+    background-color: #fff;
+    color: #000;
+}
+
+.list-item-icon {
+    display: flex;
+    margin-right: 5px;
+}
+
+.go-repo-btn {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    width: 50%;
+    color:  #fff;
+    font-size: .9rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: .4s;
+    padding: 3px 15px 5px 15px;
+}
+
+
+.go-repo-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.go-repo-btn-icon {
+    transition: .3s;
+}
+
+.go-repo-btn-icon:hover {
+    transform: translateX(.4rem);
+}
+
+@keyframes complete_bar_horizontal {
+    0%{
+        width: 0%;
+    }
+}
+
+@keyframes complete_bar_vertical {
+    0%{
+        height: 0%;
+    }
+
+}

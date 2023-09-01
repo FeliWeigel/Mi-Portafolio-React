@@ -1,0 +1,49 @@
+.skills-1 {
+    position: absolute;
+    top: 20%;
+    right: 7%;
+}
+
+.skills-2 {
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+}
+
+.skills-link {
+    display: flex;
+    justify-content:center;
+    width: 55%;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.skills-link:hover { 
+    background: rgba(0, 0, 0, 0.509);
+}
+
+.projects-link, .about-link{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 50%;
+    transition: .3s;
+}
+
+.projects-link {
+    background-color: rgba(0, 0, 0, 0.783);
+}
+
+.projects-link:hover {
+    background-color: rgba(0, 0, 0, 0.651);
+}
+
+.about-link {
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+.about-link:hover {
+    background-color: rgba(0, 0, 0, 0.653);
+}

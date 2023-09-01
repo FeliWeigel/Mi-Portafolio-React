@@ -1,0 +1,41 @@
+#home-title {
+    display: block;
+    position: relative;
+    animation: text_reveal_1;
+    animation-duration: 1.2s;
+}
+
+#home-subtitle {
+    animation: text_reveal_2;
+    animation-duration: 4s;
+}
+
+#home-title span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #fff;
+    animation: title_reveal 1s ease;
+}
+
+#home-portfolio {
+    animation: slide_right 1.5s;
+}
+
+#home-btn{
+    animation: slide_left 1.5s;
+}
+
+@keyframes title_reveal {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
