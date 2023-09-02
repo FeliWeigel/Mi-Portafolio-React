@@ -6,6 +6,8 @@ import BackendSkills from "../components/BackendSkills"
 import FrontendSkills from "../components/FrontendSkills"
 
 import { Alert, Box, Container, Typography } from "@mui/material"
+import DevToolsSkills from "../components/DevToolsSkills"
+import DevOpsSkills from "../components/DevOpsSkills"
 
 const SkillsPage = () => {
     const [backend, setBackend] =  useState(true)
@@ -97,8 +99,8 @@ const SkillsPage = () => {
             {
                 backend ? <BackendSkills/> : 
                 frontend ? <FrontendSkills/> : 
-                devTools ? <BackendSkills/> :
-                devOps ? <BackendSkills/> : 
+                devTools ? <DevToolsSkills/> :
+                devOps ? <DevOpsSkills/> : 
                 <Alert severity="error" sx={{marginTop: '2rem'}}>Error 404</Alert>
             }
         </Container>

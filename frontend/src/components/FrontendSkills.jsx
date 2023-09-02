@@ -24,7 +24,7 @@ const FrontendSkills = () => {
         gap: '.8rem',
         padding: '1rem 2rem 0 2rem'
     }}>
-        <Box display={'flex'} gap={'1.5rem'} width={'100%'} height={'100%'} padding={'.5rem 0'}>
+        <Box display={'flex'} gap={'1.5rem'} width={'100%'} height={'100%'}>
             <Box display={'flex'} flexDirection={'column'} gap={'.7rem'} width={'53%'}>
                 <Box>
                     <Typography 

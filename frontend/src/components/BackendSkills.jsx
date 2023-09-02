@@ -22,7 +22,7 @@ const BackendSkills = () => {
         gap: '.8rem',
         padding: '1rem 2rem'
     }}>
-        <Box display={'flex'} gap={'1.5rem'} width={'100%'} height={'100%'} padding={'.5rem 0'} borderBottom={'.5px solid rgba(255,255,255,0.7)'}>
+        <Box display={'flex'} gap={'1.5rem'} width={'100%'} height={'100%'} borderBottom={'.5px solid rgba(255,255,255,0.7)'}>
             <Box display={'flex'} flexDirection={'column'} gap={'.7rem'} width={'53%'}>
                 <Box>
                     <Typography 
@@ -32,7 +32,7 @@ const BackendSkills = () => {
                     >Lenguajes y tecnologías</Typography>
                     <List>
                         <SkillsItem skill='Java' percentage='95%'/>
-                        <SkillsItem skill='Spring Framework' percentage='87%'/>
+                        <SkillsItem skill='Spring Framework' percentage='90%'/>
                         <SkillsItem skill='Amazon Web Services' percentage='60%'/>
                         <SkillsItem skill='JUnit Testing' percentage='75%' />
                     </List>
@@ -121,7 +121,7 @@ const BackendSkills = () => {
         </Box>
 
         <Box width={'100%'} display={'flex'} gap={'1rem'}>
-            <Box width={'58%'} paddingRight={'1rem'} borderRight={'.5px solid rgba(255,255,255,.6)'}>
+            <Box width={'54%'} paddingRight={'1rem'} borderRight={'.5px solid rgba(255,255,255,.6)'}>
                 <Typography display={'inline-block'} padding={'2px 0'} marginBottom={'.3rem'} borderBottom={'.5px solid rgba(255,255,255,.6)'} typography={'h4'} fontSize={'1.3rem'} color={'#fff'}>
                     Fuentes de aprendizaje:
                 </Typography>
