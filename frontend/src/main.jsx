@@ -2,11 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import RouterService from './service/RouterService.jsx'
+import App from './App'
 const router = createBrowserRouter([
   {
     path: "*",
-    element: <RouterService/>
+    element: <App/>
   }
 ])
 

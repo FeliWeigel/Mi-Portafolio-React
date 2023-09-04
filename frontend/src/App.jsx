@@ -1,12 +1,10 @@
-
+import RouterService from "./service/RouterService"
 
 function App() {
-
   return (
     <>
-    <h1>hello world!</h1>
+      <RouterService/>
     </>
   )
 }
-
 export default App

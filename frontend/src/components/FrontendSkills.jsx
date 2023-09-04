@@ -132,7 +132,7 @@ const FrontendSkills = () => {
                         </Box>
 
                         <Link to="https://github.com/FeliWeigel/FullStackProject-Aws-S3/tree/master/FSFrontend" target="_blank" className="go-repo-btn">
-                            Codigo del proyecto <Icon className="go-repo-btn-icon" icon={arrowRight2} size={16}></Icon>
+                            Código del proyecto <Icon className="go-repo-btn-icon" icon={arrowRight2} size={16}></Icon>
                         </Link>
                     </Box>
 
@@ -152,7 +152,7 @@ const FrontendSkills = () => {
                         </Box>
 
                         <Link to="https://github.com/FeliWeigel/Plataforma-cursos-spring-react/tree/master/front" target="_blank" className="go-repo-btn">
-                            Codigo del proyecto <Icon className="go-repo-btn-icon" icon={arrowRight2} size={16}></Icon>
+                            Código del proyecto <Icon className="go-repo-btn-icon" icon={arrowRight2} size={16}></Icon>
                         </Link>
                     </Box>
 
@@ -190,7 +190,7 @@ const FrontendSkills = () => {
                         </Box>
                         
                         <Link to="https://github.com/FeliWeigel/Shoes-Ecommerce/tree/main/front" target="_blank" className="go-repo-btn">
-                            Codigo del proyecto <Icon className="go-repo-btn-icon" icon={arrowRight2} size={16}></Icon>
+                            Código del proyecto <Icon className="go-repo-btn-icon" icon={arrowRight2} size={16}></Icon>
                         </Link>
                     </Box>
                 </Box>
