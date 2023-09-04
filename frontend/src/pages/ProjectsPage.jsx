@@ -7,7 +7,7 @@ import projectsImg3 from "../assets/projects3.jpg"
 import projectsImg4 from "../assets/projects4.jpg"
 import projectsImg5 from "../assets/projects5.jpg"
 
-import { Box, Button, Container, Typography } from "@mui/material"
+import { Box, Button, Typography } from "@mui/material"
 import Icon from "react-icons-kit"
 import {leaf} from 'react-icons-kit/entypo/leaf'
 import {socialJavascript} from 'react-icons-kit/ionicons/socialJavascript'
@@ -15,7 +15,7 @@ import {socialJavascript} from 'react-icons-kit/ionicons/socialJavascript'
 
 const ProjectsPage = () => {
   return (
-    <Container sx={{
+    <Box sx={{
         width: '100%',
         height: 'auto',
         padding: '2rem',
@@ -376,7 +376,7 @@ const ProjectsPage = () => {
                 }}>VER MÁS</Button>
             </Box>  
         </Box>   
-    </Container>
+    </Box>
   )
 }
 
