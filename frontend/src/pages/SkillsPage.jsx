@@ -82,7 +82,7 @@ const SkillsPage = () => {
                 fontSize={'1.8rem'} textAlign={'center'} 
                 fontWeight={'600'} letterSpacing={'.5px'} color={'#fff'} 
                 borderBottom={'.5px solid rgba(255,255,255,0.3)'} paddingBottom={'1rem'}
-                marginBottom={'1rem'}
+                marginBottom={'1rem'} 
             >
                 Mis habilidades técnicas
             </Typography>

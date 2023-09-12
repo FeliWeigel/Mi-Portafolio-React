@@ -20,7 +20,7 @@ const FrontendSkills = () => {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'flex-start',
-        height: '225vh',
+        height: '195vh',
         gap: '.8rem',
         padding: '1rem 2rem 0 2rem'
     }}>
@@ -76,7 +76,7 @@ const FrontendSkills = () => {
                 </Typography>
                 <Box 
                     display={'flex'} 
-                    height={'18%'} 
+                    height={'21%'} 
                     justifyContent={'center'}
                     padding={'1rem 0'}
                     borderBottom={'.5px solid rgba(255,255,255,0.7)'}

@@ -3,3 +3,41 @@
     margin-bottom: .5rem;
     box-shadow: 0px 0px 2px 0px rgba(255, 255, 255, 0.32);
 }
+
+.projects-dtls-link {
+    margin: 0 auto;
+    padding: 0 20px;
+    border-bottom: .5px solid rgba(255,255,255,0.5);
+    transition: .4s;
+}
+
+.projects-dtls-link:hover {
+    background-color: rgba(255,255,255,.1);
+}
+
+.project-dls-image {
+    width: 520px;
+    height: 235px;
+    border: 1px solid #ffffff31;
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.107);
+}
+
+.link-repo-project-dtls {
+    display: flex;
+    font-size: 1.07rem;
+    gap: .4rem;
+    width: 45%;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #fff;
+    padding: 5px 20px 6px 20px;
+    border-radius: 20px;
+    border: 1.5px solid #fff;
+    transition: ease .5s;
+}
+
+.link-repo-project-dtls:hover {
+    background-color: transparent;
+    color: #fff;
+    transform: translateX(1rem);
+}
+

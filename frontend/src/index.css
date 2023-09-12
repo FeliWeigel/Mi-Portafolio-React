@@ -39,8 +39,18 @@ button, a{
   }
 }
 
+@keyframes show_cards {
+  0%{
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes text_reveal_1 {
-    50% {
+    0% {
         color: transparent;
     }
 
@@ -57,4 +67,14 @@ button, a{
     100% {
         color: rgba(255,255,255,0.6);
     }
+}
+
+@keyframes text_reveal_3 {
+  0% {
+      color: transparent;
+  }
+
+  100% {
+      color: rgba(255,255,255,.4);
+  }
 }

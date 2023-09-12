@@ -18,7 +18,7 @@ const BackendSkills = () => {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'flex-start',
-        height: '246vh',
+        height: '220vh',
         gap: '.8rem',
         padding: '1rem 2rem'
     }}>
