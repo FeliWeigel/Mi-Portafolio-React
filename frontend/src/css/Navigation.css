@@ -24,7 +24,7 @@
     background: rgba(0, 0, 0, 0.509);
 }
 
-.projects-link, .about-link{
+.projects-link, .about-nav-link{
     display: flex;
     justify-content:center;
     align-items: center;
@@ -40,10 +40,10 @@
     background-color: rgba(0, 0, 0, 0.651);
 }
 
-.about-link {
+.about-nav-link {
     background-color: rgba(0, 0, 0, 0.685);
 }
 
-.about-link:hover {
+.about-nav-link:hover {
     background-color: rgba(0, 0, 0, 0.653);
 }

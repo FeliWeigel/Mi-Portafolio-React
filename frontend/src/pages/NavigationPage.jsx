@@ -81,7 +81,7 @@ const NavigationPage = () => {
               <img src={myProjectsSvg} alt="projects illustration"/>
             </Box>
           </Link>
-          <Link className="about-link" to="/navigate/about">
+          <Link className="about-nav-link" to="/navigate/about">
             <Box sx={{
               width: '100%',
               height: '100%',

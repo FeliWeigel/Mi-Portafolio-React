@@ -5,6 +5,7 @@ import SkillsPage from "../pages/SkillsPage"
 import ProjectsPage from "../pages/ProjectsPage"
 import ProjectDetails from "../components/ProjectDetails"
 import { projectCoursesPlatform, projectDashboard, projectShoesEcommerce, projectSpringBootcamp, projectTaskManager } from "./ProjectsService"
+import AboutPage from "../pages/AboutPage"
 
 
 
@@ -20,6 +21,7 @@ const RouterService = () => {
         <Route exact path="/navigate/projects/details/3" element={<ProjectDetails project={projectShoesEcommerce()}/>}></Route>
         <Route exact path="/navigate/projects/details/4" element={<ProjectDetails project={projectTaskManager()}/>}></Route>
         <Route exact path="/navigate/projects/details/5" element={<ProjectDetails project={projectSpringBootcamp()}/>}></Route>
+        <Route exact path="/navigate/about" element={<AboutPage/>}></Route>
     </Routes>
   )
 }

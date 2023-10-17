@@ -1,0 +1,24 @@
+.profile-img {
+    width: 170px;
+    height: 222px;
+    object-fit: cover;
+    box-shadow: 2px 2px 8px 0px #ffffff14;
+    border: .5px solid #ffffff2a;
+}
+
+.about-link-icon {
+    margin-bottom: 5px;
+}
+
+.about-link {
+    color: #fff;
+    background: transparent;
+    padding:  0px 4px 5px 4px;
+    background-color: rgba(0, 0, 0, 0.721);
+    border-radius: 20%;
+    transition: .4s;
+}
+
+.about-link:hover {
+    transform: translateY(-.2rem);
+}
